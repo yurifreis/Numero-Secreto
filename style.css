@@ -54,7 +54,7 @@ p{
 
 }
 
-.descobrir{
+.chutar{
     width: 30%;
     height: 12%;
     font-weight: bolder;
@@ -71,7 +71,7 @@ p{
     padding: 0 11px;
 }
 
-.descobrir:hover{
+.chutar:hover{
     background-color: #F2668B;
     transition: 0.5s;
     color: white;
@@ -83,4 +83,8 @@ p{
     transition: 0.5s;
     color: white;
     border: none;
+}
+
+.res{
+    padding: 0px 22px;
 }
