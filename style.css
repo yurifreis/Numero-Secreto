@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3D5A73;
+}
+
+form{
+    width: 20%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px white;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+h3{
+    font-size: 17pt;
+}
+
+p{
+    font-size: 12pt;
+}
+
+.numero{
+    width: 40%;
+    height: 12%;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10pt;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.descobrir{
+    width: 30%;
+    height: 12%;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.reiniciar{
+    width: 37%;
+    height: 12%;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0 11px;
+}
+
+.descobrir:hover{
+    background-color: #F2668B;
+    transition: 0.5s;
+    color: white;
+    border: none;
+}
+
+.reiniciar:hover{
+    background-color: #F2668B;
+    transition: 0.5s;
+    color: white;
+    border: none;
+}
