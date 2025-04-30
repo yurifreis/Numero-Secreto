@@ -1,6 +1,7 @@
-<h1 align="center"> Jogo Número Secreto!🏆</h1> 
+<h1 align="center"> Jogo Número Secreto!🏆</h1>  
 
-<p align="center">Olá! Sejam todos bem-vindo(a)s!👋     
+<p align="center">Olá! Sejam todos bem-vindo(a)s!👋  
+
 Meu nome é Yuri e gostaria de compartilhar e apresentar um pouco dos resultados dos meus estudos!😃  </p>
 
 ## Introdução
@@ -24,6 +25,7 @@ Agradeço por ter lido até aqui e espero de coração que você curta bastante 
 
 Estou sempre aberto a sugestões, feedbacks, novas experiências e conexões. Por isso, deixo abaixo o link para o meu LinkedIn:
 
-[🔗Meu Linkedin🔗](www.linkedin.com/in/yuri-fernandes-4a9114236)
-
-Vamos conectar e trocar ideias!😄
+<p align="center">
+  <a href="https://www.linkedin.com/in/yuri-fernandes-4a9114236">🔗Meu Linkedin🔗</a><br>
+  Vamos conectar e trocar ideias!😄
+</p>
