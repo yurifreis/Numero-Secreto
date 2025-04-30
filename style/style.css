@@ -8,6 +8,8 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #5c69e1, #feb47b);
+    
 }
 
 main{
@@ -16,7 +18,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3D5A73;
 }
 
 form{
@@ -29,17 +30,26 @@ form{
     justify-content: center;
     border: none;
     border-radius: 15px;
-    box-shadow: 1px 1px 10px white;
+    box-shadow: 0px 0px 7px white;
     font-family: "Roboto", sans-serif;
     background-color: white;
 }
 
 h3{
     font-size: 17pt;
+    color: rgb(55, 121, 188);
+    
 }
 
 p{
     font-size: 12pt;
+}
+
+.container_placar{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 11pt;
+    font-weight: normal;
 }
 
 .numero{
@@ -47,7 +57,7 @@ p{
     height: 12%;
     padding: 5px;
     font-family: "Roboto", sans-serif;
-    font-size: 10pt;
+    font-size: 11pt;
     border: 1px solid black;
     border-radius: 5px;
     outline: none;
@@ -57,18 +67,23 @@ p{
 .chutar{
     width: 30%;
     height: 12%;
-    font-weight: bolder;
+    padding: 2%;  
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
     border-radius: 5px;
     border: 1px solid black;
 }
 
 .reiniciar{
-    width: 37%;
+    width: 31%;
     height: 12%;
-    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
     border-radius: 5px;
     border: 1px solid black;
-    padding: 0 11px;
+    padding: 2%;
 }
 
 .chutar:hover{
@@ -87,4 +102,48 @@ p{
 
 .res{
     padding: 0px 22px;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 14pt;
+    }
+
+    p {
+        font-size: 10pt;
+    }
+
+    .numero, .chutar, .reiniciar {
+        width: 80%;
+        height: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    form {
+        width: 90%;
+        max-width: 400px; 
+        height: auto;
+        padding: 20px;
+    }
+    
+
+    .numero, .chutar, .reiniciar {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1025px) {
+    form {
+        width: 90%;
+        max-width: 500px; 
+        padding: 20px;
+    }
+    
 }
